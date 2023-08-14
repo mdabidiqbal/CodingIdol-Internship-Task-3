@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: 'Times New Roman', Times, serif;
+                background-color: #f5f5f5; 
+                border: 2px solid darkgrey; 
+                border-radius: 30px;
+                padding: 20px;
+            }
+        </style>
+        <title>Google Forms</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <img src="download.png"><br>
+        <form action="thanks.html" target="_blank" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" placeholder="Name"><br><br>
+            <label for="email">Email-id:</label><br>
+            <input type="text" id="email" placeholder="e.g.:abcdefgh@gmail.com"><br><br>
+            <label for="roll">Roll-Number:</label><br>
+            <input type="text" id="roll" placeholder="e.g.:21DPCS001HY"><br><br>
+            <label for="branch">Branch:</label><br>
+            <input type="radio" id="it" name="branch" value="IT">
+            <label for="it">IT</label><br>
+            <input type="radio" id="cse" name="branch" value="CSE">
+            <label for="cse">CSE</label><br><br>
+            <label for="interests">Interests:</label><br>
+            <input type="checkbox" id="webDev" name="interests" value="Web Development">
+            <label for="webDev">Web Development</label><br>
+            <input type="checkbox" id="python" name="interests" value="Python">
+            <label for="python">Python</label><br>
+            <input type="checkbox" id="java" name="interests" value="Java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="ai/ml" name="interests" value="AI/ML">
+            <label for="ai/ml">AI/ML</label><br>
+            <input type="checkbox" id="blockchain" name="interests" value="Blockchain">
+            <label for="blockchain">Blockchain</label><br><br>
+            <label for="message">Message Box:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Type you message"></textarea><br><br>
+            <input type="submit" value="Submit"><br><br>
+        </form>
+    </body>
+</html>
